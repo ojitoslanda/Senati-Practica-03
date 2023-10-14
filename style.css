@@ -1,0 +1,121 @@
+
+/*===============CUERPO=============*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    margin-top: 35px;
+    justify-content: space-evenly;
+}
+
+
+/* ============= CONTENEDOR UNO ============= */
+.contenedor-uno{
+    width: 30vw;
+}
+
+.formulario {
+    background-color: blue;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#pantalla {
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.boxPalabras {
+    height: 40px;
+    width: 25px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* */
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    text-align: center;
+    color: #111;
+    line-height: 40px;
+    font-weight: 700;
+    transition: box-shadow 0.2s linear;
+}
+
+.boxPalabras:hover{
+    background-color: pink;
+}
+
+/* ============= CONTENEDOR DOS ============= */
+.boxNumber {
+    width: 70px;
+    height: 40px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer ;
+  }
+  .boxNumber:hover{
+    background-color: pink;
+}
+
+  .calculadora2{
+    width: 360px;
+    background-color:blue;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+  }
+  
+  #pantalla2{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+
+/* =========== ESTILO AL BOTON ===========  */
+  .btnEnviar{
+    padding: 10px 20px;
+    background-color:blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .btnEnviar:hover {
+    background-color:blue;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .btnEnviar:active {
+    background-color:blue;
+  }

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 03 - HTML / CSS / JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>PRACTICA 03 DE HTML - CSS - JAVASCRIPT</h1>
+
+    <main>
+        <div class="contenedor-uno">
+            <h2 style="text-align: center;">INGRESE SU NOMBRE: </h2>
+            <form action="#" class="formulario">
+                <input type="text" class="boxPalabras" id="pantalla" readonly>
+                <br>
+                <input type="button" class="boxPalabras" value="Q" onclick="agregarPalabras('Q')" >
+                <input type="button" class="boxPalabras" value="W" onclick="agregarPalabras('W')">
+                <input type="button" class="boxPalabras" value="E" onclick="agregarPalabras('E')">
+                <input type="button" class="boxPalabras" value="R" onclick="agregarPalabras('R')">
+                <input type="button" class="boxPalabras" value="T" onclick="agregarPalabras('T')">
+                <input type="button" class="boxPalabras" value="Y" onclick="agregarPalabras('Y')">
+                <input type="button" class="boxPalabras" value="U" onclick="agregarPalabras('U')">
+                <input type="button" class="boxPalabras" value="I" onclick="agregarPalabras('I')">
+                <input type="button" class="boxPalabras" value="O" onclick="agregarPalabras('O')">
+                <input type="button" class="boxPalabras" value="P" onclick="agregarPalabras('P')">
+                <br>
+                <input type="button" class="boxPalabras" value="A" onclick="agregarPalabras('A')">
+                <input type="button" class="boxPalabras" value="S" onclick="agregarPalabras('S')">
+                <input type="button" class="boxPalabras" value="D" onclick="agregarPalabras('D')">
+                <input type="button" class="boxPalabras" value="F" onclick="agregarPalabras('F')">
+                <input type="button" class="boxPalabras" value="G" onclick="agregarPalabras('G')">
+                <input type="button" class="boxPalabras" value="H" onclick="agregarPalabras('H')">
+                <input type="button" class="boxPalabras" value="J" onclick="agregarPalabras('J')">
+                <input type="button" class="boxPalabras" value="K" onclick="agregarPalabras('K')">
+                <input type="button" class="boxPalabras" value="L" onclick="agregarPalabras('L')">
+                <input type="button" class="boxPalabras" value="Ñ" onclick="agregarPalabras('Ñ')">
+                <br>
+                <input type="button" class="boxPalabras" value="Z" onclick="agregarPalabras('Z')">
+                <input type="button" class="boxPalabras" value="X" onclick="agregarPalabras('X')">
+                <input type="button" class="boxPalabras" value="C" onclick="agregarPalabras('C')">
+                <input type="button" class="boxPalabras" value="V" onclick="agregarPalabras('V')">
+                <input type="button" class="boxPalabras" value="B" onclick="agregarPalabras('B')">
+                <input type="button" class="boxPalabras" value="N" onclick="agregarPalabras('N')">
+                <input type="button" class="boxPalabras" value="M" onclick="agregarPalabras('M')">
+                <input type="button" class="boxPalabras" value="←" onclick="borrarCadaPalabras()">
+            </form>
+        </div>
+        <div class="contenedor-boton">
+            <button type="button" class="btnEnviar" onclick="enviarDatos()">Enviar Datos</button>
+        </div>
+        <div class="contenedor-dos">
+            <h2 style="text-align: center;">INGRESE EL MONTO (S/.): </h2>
+            <form action="#" class="calculadora2">
+                <input class="boxNumber" type="text" id="pantalla2" readonly>
+                <br>
+                <input class="boxNumber" type="button" value="1" onclick="agregarNumber('1')">
+                <input class="boxNumber" type="button" value="2" onclick="agregarNumber('2')">
+                <input class="boxNumber" type="button" value="3" onclick="agregarNumber('3')">
+                <br>
+                <input class="boxNumber" type="button" value="4" onclick="agregarNumber('4')">
+                <input class="boxNumber" type="button" value="5" onclick="agregarNumber('5')">
+                <input class="boxNumber" type="button" value="6" onclick="agregarNumber('6')">
+                <br>
+                <input class="boxNumber" type="button" value="7" onclick="agregarNumber('7')">
+                <input class="boxNumber" type="button" value="8" onclick="agregarNumber('8')">
+                <input class="boxNumber" type="button" value="9" onclick="agregarNumber('9')">
+                <br>
+                <input class="boxNumber" type="button" value="C" onclick="borrarTodoNumber()">
+                <input class="boxNumber" type="button" value="0" onclick="agregarNumber('0')">
+                <input class="boxNumber" type="button" value="←" onclick="borrarCadaNumber()">
+            </form>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
