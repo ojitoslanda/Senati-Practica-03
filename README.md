@@ -88,25 +88,25 @@ FUNDAMENTOS DE LA PROGRAMACION WEB
 ¡Ojo! Recuerda para poder tener los valores de un <b> input type="text" </b> tenemos que usar este codigo.
     Ejemplo:
     
-    ```
-      <input type="text" class="mi_idenfiticador_mediante_class">
-      document.getElementsByClassName('mi_identificador_mediante_class')[0].value.
-    
-      <input type="text" id="mi_idenfiticador_mediante_ID">
-      document.getElementById('mi_identificador_mediante_ID').value
-    ```
+ ```
+<input type="text" class="mi_idenfiticador_mediante_class">
+document.getElementsByClassName('mi_identificador_mediante_class')[0].value.
+
+<input type="text" id="mi_idenfiticador_mediante_ID">
+document.getElementById('mi_identificador_mediante_ID').value
+ ```
     
 ¡Ojo! Es recomendable poner una variable y  almacenarlo, asi poder usar independientemente y acceder a ella mas fácil. Ejemplo
     
-    ```
-     let variableAlmanceneroCLASES = document.getElementById('mi_idenfiticador_mediante_class');
-     let valorPorClase = variableAlmanceneroCLASES[0].value;
-     console.log("Valor por clase: " + valorPorClase);
-     
-     let variableAlmanceneroID = document.getElementById('nombre_de_mi_ID');
-     var valorPorID = variableAlmanceneroID.value;
-      console.log("Valor por ID: " + valorPorID);
-    ```
+   ```
+   let variableAlmanceneroCLASES = document.getElementById('mi_idenfiticador_mediante_class');
+   let valorPorClase = variableAlmanceneroCLASES[0].value;
+   console.log("Valor por clase: " + valorPorClase);
+   
+   let variableAlmanceneroID = document.getElementById('nombre_de_mi_ID');
+   var valorPorID = variableAlmanceneroID.value;
+   console.log("Valor por ID: " + valorPorID);
+   ```
     
 <hr>
 
