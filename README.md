@@ -76,7 +76,7 @@ FUNDAMENTOS DE LA PROGRAMACION WEB
      }
      ```
 
-10. Programamos un funcion del "BOTON ENVIAR", dicha funcion nos mostrara  <b>alert</b> simplemente un mensaje de alerta que avisara al usuario el "NOMBRE DE LA PERSONAS Y EL MONTO EN SOLES"
+10. Programamos una funcion del "BOTON ENVIAR", dicha funcion nos mostrara  <b>alert</b> simplemente un mensaje de alerta que avisara al usuario el "NOMBRE DE LA PERSONA Y EL MONTO EN SOLES"
      ```
       valorPantallaNumero
       valorPantallaPalabra
