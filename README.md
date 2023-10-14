@@ -83,7 +83,9 @@ FUNDAMENTOS DE LA PROGRAMACION WEB
       alert("El nombre de la Persona es: "+ valorPantallaPalabra + "\n"+"El monto es que se enviara es: S/."+valorPantallaNumero );
      ```
 <hr>
-11. ¡Ojo! Recuerda para poder tener los valores de un <b> input type="text" </b> tenemos que usar este codigo.
+
+
+¡Ojo! Recuerda para poder tener los valores de un <b> input type="text" </b> tenemos que usar este codigo.
     Ejemplo:
     
     ```
@@ -94,7 +96,7 @@ FUNDAMENTOS DE LA PROGRAMACION WEB
       document.getElementById('mi_identificador_mediante_ID').value
     ```
     
-12. ¡Ojo! Es recomendable poner una variable y  almacenarlo, asi poder usar independientemente y acceder a ella mas fácil. Ejemplo
+¡Ojo! Es recomendable poner una variable y  almacenarlo, asi poder usar independientemente y acceder a ella mas fácil. Ejemplo
     
     ```
      let variableAlmanceneroCLASES = document.getElementById('mi_idenfiticador_mediante_class');
